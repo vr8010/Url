@@ -19,7 +19,6 @@ import psycopg2
 from psycopg2.extras import RealDictCursor
 import os
 
-
 class DailyReportGenerator:
     """Generate and email daily analytics report for URL shortener"""
     
@@ -263,6 +262,6 @@ def main():
     else:
         print("Failed to generate or send daily report")
 
-
 if __name__ == "__main__":
     main()
+
